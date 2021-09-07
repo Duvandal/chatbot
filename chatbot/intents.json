@@ -1,0 +1,28 @@
+{"intents":[
+    {"tag": "greetings",
+        "patterns": ["hello","hi","hey","how are you?"],
+        "responses": ["Hello", "Hi","Hey"]
+    },
+    {"tag": "farewell",
+        "patterns": ["bye","later","see you","goodbye"],
+        "responses": ["Bye :)", "Goodbye", "Sad to see you go :("]
+    },
+    {"tag": "shop",
+        "patterns": ["can you help me?","i need a help","help me please"],
+        "responses": ["What can i do for you?", "May I help you?","I'm listening"]
+    },
+    {"tag": "thanks",
+        "patterns": ["thanks","that's helpful","thank you"],
+        "responses": ["Anytime :)", "Happy to help :)"]
+    },
+    {"tag": "apologize",
+        "patterns": ["sorry","pardon","hope i'm not interrupting"],
+        "responses": ["No problem :)", "No worries :)"]
+    },
+    {"tag": "names",
+        "patterns": ["who are you?","what is your name?","can i have your name?"],
+        "responses": ["I'm Ruly", "I'm Ruly and I'm ready to help","Call me Ruly"]
+    }
+]
+
+}
